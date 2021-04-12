@@ -1,0 +1,13 @@
+.price{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 7px;
+} 
+.unit{
+    color: #e2e2e2;
+    display: inline-block;
+    margin-right: 5px;
+}
+.discrepancies{ 
+    background: #ff7800db;
+}
