@@ -1,6 +1,11 @@
 import React from 'react'
-import {Lesson1 } from './lesson1'
+import { Provider } from 'react-redux'
+import { store } from './config/state'
+//import {Lesson1 } from './lesson1'
+import { Lesson2 } from './lesson2'
 
 export const App = () => {
-    return <div><Lesson1/></div>
+    return <Provider store={store}>
+         <div><Lesson2/></div>
+    </Provider>
 }
